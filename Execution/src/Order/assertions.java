@@ -14,8 +14,8 @@ public class assertions {
 	
 	@Test (priority=2)
 	public void testTwo() {
-		System.out.println("This is test two");
 		Assert.assertEquals(404, 200);
+		System.out.println("This is test two");
 	}
 	
 	@Test (priority=3)
