@@ -1,0 +1,11 @@
+
+
+<suite name="Execution Project" verbose="1">
+    <test name="Sample" preserve-order="true">
+    	<classes>
+    	  <!-- <class name="Order.SampleTestNGUsage"></class> -->  
+    	  <!-- <class name="Order.AnnotationsTest"></class> -->  
+    		<class name="Order.SkippingTest"></class>
+    	</classes>
+    </test>
+</suite>
