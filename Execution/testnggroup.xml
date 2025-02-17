@@ -7,8 +7,9 @@
   <test thread-count="1" name="Group Functionality">
   		<groups>
   			<run>
-  				<include name = "Smoke"></include>
-  				<include name = "Regression"></include>
+  				<!-- <include name = "Smoke"></include> --> 
+  				<!-- <include name = "Regression"></include> --> 
+  				<include name= "Sanity"></include> 
   			</run>
   		</groups>
   		
