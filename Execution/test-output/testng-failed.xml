@@ -5,7 +5,7 @@
     <classes>
       <class name="Order.softAssertion">
         <methods>
-          <include name="testCasetwo"/>
+          <include name="testCaseTwo"/>
         </methods>
       </class> <!-- Order.softAssertion -->
     </classes>

@@ -5,6 +5,7 @@ import java.util.concurrent.ForkJoinPool;
 import org.testng.ITestResult;
 import org.testng.SkipException;
 import org.testng.annotations.*;
+import org.testng.asserts.SoftAssert;
 
 public class SkippingTest {
 	
@@ -32,9 +33,11 @@ public class SkippingTest {
 	}
 	
 	
-	@Test (priority = 2, enabled=false) //used when you want to skip
+	@Test (priority = 2) //used when you want to skip
 	public void second() {
 		System.out.println("From SkippingTest Class : second is Running");
+		SoftAssert softAssert = new SoftAssert();
+		softAssert.assertAll();
 	}
 	
 	@Test (priority = 3)
