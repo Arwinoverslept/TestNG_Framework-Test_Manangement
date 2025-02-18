@@ -5,6 +5,7 @@
 <suite name="Parameterization Testing">
   
   <test thread-count="1" name="Parameterization Functionality">
+  
   		<parameter name="browser" value="Brave"></parameter>
   		<parameter name="username" value="arwinoverslept"></parameter>
   		<parameter name="password" value="1234"></parameter>

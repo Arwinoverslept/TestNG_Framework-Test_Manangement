@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Data Provider Testing">
+  
+  <test name="testDataType Test">
+			<classes>
+				<class name = "testDataProvider.testDataType"></class>
+			</classes>
+  </test> <!-- Test -->
+  
+  <test name="dataProviderAcceptanceSample Test">
+			<classes>
+				<class name = "testDataProvider.dataProviderAcceptanceSample"></class>
+			</classes>
+  </test> <!-- Test -->
+  
+  <test name="dataProviderParam Test">
+			<classes>
+				<class name = "testDataProvider.dataProviderParam"></class>
+			</classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+
+
+
+
